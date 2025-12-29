@@ -90,10 +90,11 @@ product_category button {
 .footer_column {
   display: inline-block;
   vertical-align: top;
-  width: 30%;
-  margin-right: 2%;
+  width: auto;
+  margin: 10px 40px;
   color: white;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .footer_column h2 {

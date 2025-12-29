@@ -60,3 +60,20 @@ product_category button {
   color: white;
   background-color: #2b3d8b;
 }
+
+/* aisde */
+
+/* other option */
+.more_button {
+  color: #2b3d8b;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 7px;
+  border: 2px solid #2b3d8b;
+  padding: 5px 10px;
+}
+
+.more_button:hover {
+  background-color: #2b3d8b;
+  color: white;
+}

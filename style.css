@@ -49,8 +49,9 @@ product_category {
 product_category button {
   font-size: 17px;
   background-color: #e6e6e6;
-  padding: 2px 2px;
-  margin-right: 10px;
+  padding: 5px 5px;
+  margin-right: 15px;
+  margin-bottom: 10px;
   cursor: pointer;
   border-radius: 5px;
   border: none;
@@ -61,19 +62,39 @@ product_category button {
   background-color: #2b3d8b;
 }
 
-/* aisde */
-
 /* other option */
 .more_button {
+  display: block;
   color: #2b3d8b;
   background-color: white;
   font-size: 17px;
   border-radius: 7px;
   border: 2px solid #2b3d8b;
   padding: 5px 10px;
+  margin: 20px auto;
 }
 
 .more_button:hover {
   background-color: #2b3d8b;
+  color: white;
+}
+
+/* aisde */
+.aside_frame {
+  width: 100%;
+  background-color: #2b3d8b;
+  padding: 20px 0;
+}
+
+aside h2 {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+  padding-left: 10px;
+  color: white;
+}
+
+aside p {
+  display: inline-block;
   color: white;
 }

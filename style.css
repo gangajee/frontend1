@@ -72,6 +72,7 @@ product_category button {
   border: 2px solid #2b3d8b;
   padding: 5px 10px;
   margin: 20px auto;
+  cursor: pointer;
 }
 
 .more_button:hover {
@@ -79,35 +80,28 @@ product_category button {
   color: white;
 }
 
-/* aisde */
-.main_footer {
+/* aside */
+.footer_frame {
+  padding: 20px 0;
   width: 100%;
   background-color: #2b3d8b;
-  color: white;
-  padding: 20px 0;
-}
-
-.footer_content {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
 }
 
 .footer_column {
   display: inline-block;
   vertical-align: top;
-  width: 25%;
-  font-size: 16px;
+  width: 30%;
+  margin-right: 2%;
+  color: white;
   box-sizing: border-box;
-  padding: 0 10px;
 }
 
 .footer_column h2 {
-  margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .footer_column p {
-  font-size: 14px;
-  margin-bottom: 8px;
-  line-height: 1.6;
+  font-size: 15px;
+  margin-bottom: 2px;
 }

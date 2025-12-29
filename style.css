@@ -3,30 +3,60 @@
   padding: 0;
 }
 
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* At the top of main */
 h1 {
   font-size: 24px;
-  margin-right: 40px;
+  margin: 20px 30px;
 }
 
 .main_background {
-  background-color: blue;
+  background-color: #2b3d8b;
   width: 100%;
   height: auto;
   color: white;
 }
 
-main-category h1,
-main-category button {
+main_category h1,
+main_category button {
   vertical-align: middle;
   display: inline-block;
 }
 
-main-category button {
+main_category button {
   color: white;
-  background-color: blue;
+  background-color: #2b3d8b;
   margin: 0 20px;
   font-size: 16px;
   cursor: pointer;
-  outline: none;
   border: none;
+}
+
+/* Categoty setting */
+product_category {
+  display: block;
+  margin: 10px 0;
+}
+
+product_category button {
+  font-size: 20px;
+  background-color: #e6e6e6;
+  padding: 2px 2px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.entire {
+  color: white;
+  background-color: #2b3d8b;
 }

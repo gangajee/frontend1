@@ -28,6 +28,10 @@
   font-weight: bold;
 }
 
+.main_button button:hover {
+  color: orange;
+}
+
 .home {
   padding: 0 5px;
 }
@@ -58,6 +62,10 @@
   border: none;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.product_category button:not(:first-child):hover {
+  background-color: rgb(214, 214, 214);
 }
 
 .entire {

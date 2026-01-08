@@ -108,7 +108,7 @@
   background-color: white;
   min-width: 120px;
   border-radius: 12px;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 8px 16px #0000001a;
   padding: 10px 0;
   list-style: none;
 }
@@ -172,11 +172,39 @@
 }
 
 .footer_columns {
-  justify-self: center;
+  justify-items: center;
 }
 
 .footer_columns h2 {
   margin-bottom: 10px;
+}
+
+.footer_columns p {
+  margin-bottom: 4px;
+}
+
+.footer_button button {
+  background-color: #2b3d8b;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  display: block;
+  border: none;
+  cursor: pointer;
+}
+
+.footer_button a:link,
+.footer_button a:visited {
+  text-decoration: none;
+}
+
+.footer_button a button:hover {
+  color: orange;
+}
+
+.FAQ {
+  padding: 0 10px;
 }
 
 .footer_bottom {
@@ -188,6 +216,6 @@
   margin: 10px 0;
 }
 
-.footer_bottom p {
+.footer_bottom button {
   text-align: center;
 }
